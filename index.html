@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Expense Tracker</title>
+
+</head>
+<body>
+    <div class="header"><h2>STUDENTS EXPENSE TRACKER </h2></div>
+    <div class="play">
+       <form action="" class="example"> <input type="text" autocomplete="off" name="name" id="text" placeholder=" Name" class="text-input" >
+        <label for="text"> Name</label>
+        <ul id="drop"></ul>
+        <input type="submit" class="go" value="submit">
+
+        <div class="class">
+            <form action="" class="example"> <input type="text" autocomplete="off" name="name" id="class" placeholder=" Class " class="text-input" >
+             <label for="text">Class</label>
+             <ul id="drop"></ul>
+            </form>
+         </div>
+         <div class="cash">
+            <form action="" class="example"> <input type="text" autocomplete="off" name="name" id="cash" placeholder="Cash " class="text-input" >
+             <label for="text">Cash$</label>
+             <ul id="drop"></ul>
+            </form>
+         </div>
+         <div class="expense">
+            <form action="" class="example"> <input type="text" autocomplete="off" name="name" id="expense" placeholder="expense " class="text-input" >
+             <label for="text">Expense Made</label>
+            </form>
+         </div>
+      </form>
+   </div>
+   
+   
+   <table class="drop">
+      <tr>
+         <th>Name</th>
+         <th>Class</th>
+         <th>Cash</th>
+         <th>Expense</th>
+      </tr>
+    <tr id="data">
+       <td class="student-name"></td>
+      <td class="student-class"></td>
+      <td class="money"></td>
+      <td class="reason"></td>
+    </tr>
+   </table>
+   <input type="submit" class="come" value="Clear">
+
+<script src="apps.js"></script>
+    
+</body>
+</html>

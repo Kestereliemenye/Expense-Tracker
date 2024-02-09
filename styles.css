@@ -1,0 +1,150 @@
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    width: 100%;
+    /* justify-content: center; */
+    /* align-items: center; */
+    display: flex;
+    min-height: 100vh;
+    background: #292929;
+    font-family: sans-serif;
+    position: relative;
+
+
+}
+.header{
+    display: block;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 200px;
+    margin-left: 500px;
+    color: #999934;
+
+}
+.play{
+    position: relative;
+    margin-top: 90px;
+    width: 600px;
+    padding-top: 15px;
+    margin-left: -800px;
+
+
+}
+.class{
+    position: relative;
+    margin-top: 90px;
+    width: 600px;
+    padding-top: 15px;
+    margin-left:350px;
+    margin-top:-60px ;
+}
+.cash{
+    position: relative;
+    margin-top: 90px;
+    width: 600px;
+    padding-top: 15px;
+    margin-left:700px;
+    margin-top:-60px ;
+}
+.expense{
+    position: relative;
+    margin-top: 90px;
+    width: 600px;
+    padding-top: 15px;
+    margin-left:900px;
+    margin-top:-60px ;
+}
+.cash .text-input{
+    width: 20%;
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid #999999;
+    padding: 10px 0;
+    background: transparent;
+    font-size: 20px;
+    color: #ffffff;
+    transition: 0.3s ease;
+}
+.text-input{
+    width: 50%;
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid #999999;
+    padding: 10px 0;
+    background: transparent;
+    font-size: 20px;
+    color: #ffffff;
+    transition: 0.3s ease;
+}
+label{
+    display: block;
+    position: absolute;
+    top: 0;
+    font-size: 2px;
+    text-transform: uppercase;
+    color: #999999;
+    transition: 0.3 ease;
+}
+.text-input::placeholder{
+    color: transparent;
+}
+.text-input:placeholder-shown ~ label{
+    font-size: 20px;
+    top :20px;
+}
+.text-input:focus{
+    border-image: linear-gradient(to right, red, yellow);
+    border-image-slice: 1;
+}
+.text-input:focus ~ label{
+    display: block;
+    position: absolute;
+    top:0;
+    font-size: 1em;
+    color: red;
+    transition: 0.4s ease;
+}
+.go{
+    position: absolute;
+    top: 90px;
+    left: -1px;
+    background-color: #999997;
+    border-radius: 5px ;
+    padding: 3px;
+    font-size: 1em;
+}
+ table{
+    position: absolute;
+    bottom: -1px;
+    top: 350px;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+
+ }
+ th {
+    padding: 100px;
+    padding-bottom: 10px;
+ }
+ #data, tr{
+    margin-top: 200px;
+ }
+
+ td, .student-name, .student-class, .money, .reason {
+    padding: 100px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+ }
+.come{
+    position: absolute;
+    top: 800px;
+    right: 10px;
+    background-color: #999997;
+    border-radius: 5px ;
+    padding: 3px;
+    font-size: 1em;
+}
