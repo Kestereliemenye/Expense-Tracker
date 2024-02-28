@@ -25,7 +25,7 @@ function getExpenseDataFromUI() {
 }
 
 // this function will add the expense to the table
-function addExpenseToTable(expense) {
+function addExpenseToTable() {
   const exp = getExpenseDataFromUI() // you see this i am calling the function getExpenseDataFromUI I created above here
   if (exp.name === '' || exp.amount === '' || exp.reason === '') {
     alert('Please fill in all fields')
