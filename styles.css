@@ -148,3 +148,13 @@ label{
     padding: 3px;
     font-size: 1em;
 }
+.total-expense{
+    position: absolute;
+    top: 800px;
+    width: 90px;
+    height: 40px;
+    background-color: #999997;
+    border-radius: 5px ;
+    padding: 3px;
+    font-size: 1em;
+}
